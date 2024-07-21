@@ -26,6 +26,11 @@
             console.log("escuchando", payload);
         });
 
+        socket.on("bandas-activas", function(bandas){
+            console.clear();
+            console.table(bandas);
+        });
+
 
     </script>
     
